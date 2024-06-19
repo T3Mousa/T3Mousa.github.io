@@ -429,6 +429,21 @@ section {
   margin-bottom: 0;
 }
 
+.about .content ul li.degreeItem {
+  display: flex;
+  align-items: flex-start;
+}
+
+.about .content ul li i.degreeItem {
+  margin-top: 3px;
+}
+
+/* .about .content ul li strong.degreeItem {
+  display: flex;
+  align-items: flex-start;
+} */
+
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -743,6 +758,11 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+
+/* .portfolio-details .col-lg-8 {
+  display: flex;
+  align-items: flex-start;
+} */
 
 /*--------------------------------------------------------------
 # Services
